@@ -1,0 +1,21 @@
+{
+     "manifest_version": 2,
+     "name": "fuck-off-rr",
+     "version": "1.0",
+     "description": "fuck off reruns",
+     "content_scripts": [
+          {
+               "matches": [
+                    "*://*.twitch.tv/directory/category/asmr*"
+               ],
+               "js": [
+                    "main.js"
+               ]
+          }
+     ],
+     "browser_specific_settings": {
+          "gecko": {
+               "id": "fuck-off-rr@lily.pm"
+          }
+     }
+}
